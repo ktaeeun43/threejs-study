@@ -1,5 +1,11 @@
 import React from "react";
+import { useState } from "react";
 import styled from "styled-components";
+import Css from "./Css";
+import Html from "./Html";
+import Javascript from "./Javascript";
+import Reactmark from "./Reactmark";
+import Nodejs from "./Nodejs";
 
 const data = ["HTML", "CSS", "Javascript", "React", "Node.js"];
 
@@ -66,6 +72,7 @@ const Right = styled.div`
 `;
 
 const Works = () => {
+  const [work, setWork] = useState("HTML");
   return (
     <>
       <Section>
@@ -73,13 +80,25 @@ const Works = () => {
           <Left>
             <List>
               {data.map((item) => (
-                <ListItem key={item} text={item}>
+                <ListItem key={item} text={item} onClick={() => setWork(item)}>
                   {item}
                 </ListItem>
               ))}
             </List>
           </Left>
-          <Right></Right>
+          <Right>
+            {work === "HTML" ? (
+              <Html />
+            ) : work === "CSS" ? (
+              <Css />
+            ) : work === "Javascript" ? (
+              <Javascript />
+            ) : work === "React" ? (
+              <Reactmark />
+            ) : (
+              <Nodejs />
+            )}
+          </Right>
         </Container>
       </Section>
     </>

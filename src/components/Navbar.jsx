@@ -62,17 +62,17 @@ const Navbar = () => {
         <Container>
           <Links>
             <Logo src="./public/img/logo.png" />
-            <List>
+            {/* <List>
               <ListItem>Home</ListItem>
               <ListItem>Studio</ListItem>
               <ListItem>Works</ListItem>
               <ListItem>Contact</ListItem>
-            </List>
+            </List> */}
           </Links>
-          <Icons>
+          {/* <Icons>
             <Icon src="./public/img/search.png" />
             <Button>Hire Now</Button>
-          </Icons>
+          </Icons> */}
         </Container>
       </Section>
     </>

@@ -102,7 +102,6 @@ const Who = () => {
             a creative group of designers and developers with a passion for the
             arts.
           </Desc>
-          <Button>See my works</Button>
         </Right>
       </Container>
     </Section>

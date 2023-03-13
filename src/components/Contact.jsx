@@ -21,6 +21,9 @@ const Left = styled.div`
   flex-direction: column;
   justify-content: center;
   margin-left: 150px;
+  @media only screen and (max-width: 768px) {
+    justify-content: center;
+  }
 `;
 
 const Title = styled.h1`

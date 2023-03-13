@@ -134,7 +134,6 @@ const Hero = () => {
           <Desc>
             I enjoy creating delightful, human-centered digital experiences.
           </Desc>
-          <Button>Learn More</Button>
         </Left>
         <Right>
           <Canvas>

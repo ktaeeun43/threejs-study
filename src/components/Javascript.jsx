@@ -1,5 +1,5 @@
 import React from "react";
-import JavascriptLogo from "../assets/java-script-5645832.png";
+import JavascriptLogo from "../assets/js-logo.svg";
 
 const Javascript = () => {
   return <img src={JavascriptLogo} />;

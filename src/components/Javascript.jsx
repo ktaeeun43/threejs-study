@@ -1,19 +1,7 @@
-import { OrbitControls, Stage } from "@react-three/drei";
-import { Canvas } from "@react-three/fiber";
 import React from "react";
-import Cssmark from "./Cssmark";
+import JavascriptLogo from "../assets/java-script-5645832.png";
 
 const Javascript = () => {
-  return (
-    <>
-      <Canvas>
-        <Stage environment="city" intensity={0.6}>
-          <Cssmark />
-        </Stage>
-        <OrbitControls enableZoom={false} />
-      </Canvas>
-    </>
-  );
+  return <img src={JavascriptLogo} />;
 };
-
 export default Javascript;

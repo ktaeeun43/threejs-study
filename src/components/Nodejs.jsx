@@ -1,7 +1,6 @@
 import React from "react";
-
+import Node from "../assets/node-js.svg";
 const Nodejs = () => {
-  return <div>Nodejs</div>;
+  return <img src={Node} />;
 };
-
 export default Nodejs;

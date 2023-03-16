@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import styled from "styled-components";
+import Map from "../assets/map.png";
 
 const Section = styled.div`
   height: 100vh;
@@ -125,7 +126,7 @@ const Contact = () => {
           </Form>
         </Left>
         <Right>
-          <Img src="./public/img/map.png" />
+          <Img src={Map} />
         </Right>
       </Container>
     </Section>

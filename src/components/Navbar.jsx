@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import TaeeunLogo from "../assets/logo.png";
 
 const Section = styled.div`
   display: flex;
@@ -61,7 +62,7 @@ const Navbar = () => {
       <Section>
         <Container>
           <Links>
-            <Logo src="./public/img/logo.png" />
+            <Logo src={TaeeunLogo} />
             {/* <List>
               <ListItem>Home</ListItem>
               <ListItem>Studio</ListItem>
